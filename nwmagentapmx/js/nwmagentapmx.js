@@ -73,4 +73,4 @@ patchBackupConfig();
 patchDiskSmartWindow();
 patchTFAEdit();
 patchCreateWidget();
-console.log('nwmagentapmx :: Patched');
+console.log('nwmpmx :: Patched');
