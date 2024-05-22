@@ -1,5 +1,5 @@
 const COLOR_DARK = '#2C2F33'
-const COLOR_DARKER = '#23272a'
+const COLOR_DARKER = '#E10974'
 const COLOR_BLURPLE = '#E10974'
 const COLOR_YELLOW = '#faa61a'
 const COLOR_RED = '#ba2b2d'
