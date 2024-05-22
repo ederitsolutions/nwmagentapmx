@@ -1,4 +1,4 @@
-# Script to assist with PVEDiscordDark development
+# Script to assist with nwmagentapmx development
 #
 # By default serves HTTP on port 3000, any *.js request gets the JS script, any *.css request gets the CSS file and any image request gets corresponding image
 # Meant to be used with the "Requestly" browser extension to redirect PVEDD requests from PVE server to localhost:3000
@@ -32,10 +32,10 @@ class Server(BaseHTTPRequestHandler):
         ext = file.rpartition(".")[2]
 
         if ext == "css":
-            data = open(os.path.join(DIR_SASS, "PVEDiscordDark.css"), "rb").read()
+            data = open(os.path.join(DIR_SASS, "nwmagentapmx.css"), "rb").read()
             type = "text/css"
         elif ext == "js":
-            data = open(os.path.join(DIR_JS, "PVEDiscordDark.js"), "rb").read()
+            data = open(os.path.join(DIR_JS, "nwmagentapmx.js"), "rb").read()
             type = "application/javascript"
         elif ext == "png" or ext == "jpg" or ext == "jpeg":
             try:

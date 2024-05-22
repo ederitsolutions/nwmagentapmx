@@ -1,8 +1,8 @@
 # Script to compile SASS to CSS
 # Requires libsass and watchdog pip packages
 #
-# Input: PVEDiscordDark.sass
-# Output: PVEDiscordDark.css (compressed, no sourcemap)
+# Input: nwmagentapmx.sass
+# Output: nwmagentapmx.css (compressed, no sourcemap)
 #
 # Passing 'w' or 'watch' as argument to the script will auto-compile on every SASS change
 
@@ -19,7 +19,7 @@ except ImportError:
     exit(1)
 
 self_location = os.path.dirname(os.path.realpath(__file__))
-sass_src_name = "PVEDiscordDark.sass"
+sass_src_name = "nwmagentapmx.sass"
 sass_src_path = os.path.join(self_location, "sass", sass_src_name)
 sass_out_path = os.path.splitext(sass_src_path)[0] + ".css"
 sass_out_last_generated = 0
