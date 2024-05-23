@@ -1,24 +1,23 @@
 .x-grid-cell-inner
 	background: transparent
-	color: #mgtext
+	color: #fff
 
 .x-grid-cell-rowbody
-	background: #mgbgcolor
-	color: $mgtext
+	background: $dark
+	color: #fff
 
 .x-grid-item
-	background: $mgbgcolorlight
+	background: #ffffff
 	border-width: 0 !important
-	color: $mgtext
 	&:hover, &.x-grid-item-selected
-		background-color: $mgbgcolorlight
+		background-color: $light
 
 .x-grid-item-alt
-	background: $dark
+	background: $mgbgcolor
 	border-width: 0 !important
 
 .x-grid-header-ct
-	background: #mgbgcolor
+	background: $dark
 	border-width: 0 !important
 
 .proxmox-apt-repos .x-grid-group-title, .x-grid-group-title
@@ -45,5 +44,5 @@
 	color: #fff
 
 .x-grid-row-summary .x-grid-cell, .x-grid-row-summary .x-grid-rowwrap, .x-grid-row-summary .x-grid-cell-rowbody
-	background-color: #mgbgcolorlight
+	background-color: $darker !important
 	border-color: $dark
